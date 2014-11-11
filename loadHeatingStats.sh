@@ -5,9 +5,9 @@ IFS=''
 BASE_PATH=/usr/share/domoticz/scripts/heatmiser
 HEATMISER_LOG=$BASE_PATH/heatmiser.log
 DOMO_LOG=$BASE_PATH/domo.log
-DOMO_IP=http://10.81.84.173
+DOMO_IP=http://<IP OF DOMO SERVER>
 DOMO_PORT=8080
-HEATMISER_IP=10.81.84.178
+HEATMISER_IP=<IP OF HEATMISER NEO HUB>
 HEATMISER_PORT=4242
 NOW=$(date +"%d-%m-%Y %T")
 
